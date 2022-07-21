@@ -74,7 +74,7 @@ const userController = {
         if (!userData) {
           return res.json({ message: "User and thoughts deleted" });
         }
-        res.json({ message: "Thougth successfully deleted!" });
+        res.json({ message: "User successfully deleted!" });
       })
       .catch((err) => {
         console.log(err);
@@ -117,4 +117,4 @@ const userController = {
   },
 };
 
-module.exports = thoughtController;
+module.exports = userController;
